@@ -1,0 +1,27 @@
+.headerController {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.logo {
+  height: 50px;
+}
+.headerSearch {
+  text-align: center;
+}
+.headerAuth {
+  text-align: right;
+}
+.equalLogo {
+  margin-top: 10px;
+}
+.menuPadding {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.menuBackgroundColor {
+  background-color: black;
+}
+.textWhite {
+  color: white;
+}
+
