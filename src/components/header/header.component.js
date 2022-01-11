@@ -1,12 +1,30 @@
+import React, { useState } from "react";
+
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "./header.css";
 import { Input } from "antd";
 import "antd/dist/antd.min.css";
+import LoginComponent from "./modal/login/login.component";
 
 export default function HeaderComponent() {
   const onSearch = (value) => console.log(value);
   const { Search } = Input;
+
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  const handleOk = () => {
+    setIsModalVisible(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  };
+
   return (
     <div>
       <Container>
@@ -27,7 +45,7 @@ export default function HeaderComponent() {
               </Col>
               <Col xs={6}>
                 <div className="headerAuth">
-                  <a href="/a">Đăng nhập</a>
+                  <a onClick={showModal}>Đăng nhập</a>
                 </div>
               </Col>
             </Row>
@@ -67,6 +85,14 @@ export default function HeaderComponent() {
           </Row>
         </Container>
       </div>
+
+      <LoginComponent
+        isModalVisible={isModalVisible}
+        setIsModalVisible={setIsModalVisible}
+        showModal={showModal}
+        handleCancel={handleCancel}
+        handleOk={handleOk}
+      />
     </div>
   );
 }
