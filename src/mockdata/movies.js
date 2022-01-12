@@ -2,6 +2,7 @@ export const movies = [
   {
     id: 1,
     vietnamName: "",
+    name: 'rung-the-mang',
     englishName: "RỪNG THẾ MẠNG",
     imageUrl:
       "https://www.galaxycine.vn/media/2022/1/3/rtm-glx-1350x900_1641183250342.jpg",
@@ -21,6 +22,7 @@ export const movies = [
   },
   {
     id: 2,
+    name: 'nguoi-nhen',
     vietnamName: "NGƯỜI NHỆN: KHÔNG CÒN NHÀ",
     englishName: "SPIDER-MAN: NO WAY HOME",
     imageUrl:
@@ -41,6 +43,7 @@ export const movies = [
   },
   {
     id: 3,
+    name: 'biet-doi-san-ma',
     vietnamName: "BIỆT ĐỘI SĂN MA: CHUYỂN KIẾP",
     englishName: "GHOSTBUSTER: AFTERLIFE",
     imageUrl:
@@ -61,6 +64,7 @@ export const movies = [
   },
   {
     id: 4,
+    name: 'qua-nhanh-qua-nguy-hiem-9',
     vietnamName: "QUÁ NHANH QUÁ NGUY HIỂM 9",
     englishName: "FAST & FURIOUS 9",
     imageUrl:
@@ -81,6 +85,7 @@ export const movies = [
   },
   {
     id: 5,
+    name: 'con-tin-ngoi-sao-mat-tich',
     vietnamName: "CON TIN: NGÔI SAO MẤT TÍCH",
     englishName: "HOSTAGE: MISSING CELEBRITY",
     imageUrl:
@@ -101,6 +106,7 @@ export const movies = [
   },
   {
     id: 6,
+    name: 'happy-new-year',
     vietnamName: "",
     englishName: "HAPPY NEW YEAR",
     imageUrl:
@@ -121,6 +127,7 @@ export const movies = [
   },
   {
     id: 7,
+    name: 'resident-evil',
     vietnamName: "RESIDENT EVIL: QUỶ DỮ TRỖI DẬY",
     englishName: "RESIDENT EVIL: WELCOME TO RACCOON CITY",
     imageUrl:
@@ -141,6 +148,7 @@ export const movies = [
   },
   {
     id: 8,
+    name: 'the-boss-baby',
     vietnamName: "",
     englishName: "THE BOSS BABY: FAMILY BUSINESS",
     imageUrl:
@@ -165,6 +173,6 @@ export const cinemas = [
   'Galaxy Huế',
   'Galaxy Đà Nẵng',
   'Galaxy Quảng Trị',
-  'Galaxy Nam',
-  'Galaxy Ngãi',
+  'Galaxy Quảng Nam',
+  'Galaxy Quảng Ngãi',
 ]

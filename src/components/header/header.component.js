@@ -47,7 +47,9 @@ export default function HeaderComponent() {
               </Col>
               <Col xs={6}>
                 <div className="headerAuth">
-                  <a onClick={showModal}>Đăng nhập</a>
+                  <div className="cursor-pointer login" onClick={showModal}>
+                    Đăng nhập
+                  </div>
                 </div>
               </Col>
             </Row>
@@ -60,27 +62,27 @@ export default function HeaderComponent() {
             style={{ textAlign: "center", fontWeight: "bold", fontSize: 15 }}
           >
             <Col>
-              <a href="/a" className="textWhite">
+              <a className="headerItem" href="/lich-chieu">
                 MUA VÉ
               </a>
             </Col>
             <Col>
-              <a href="/a" className="textWhite">
+              <a className="headerItem" href="/a">
                 PHIM
               </a>
             </Col>
             <Col>
-              <a href="/lich-chieu" className="textWhite">
-                LICH CHIẾU
+              <a className="headerItem" href="/a">
+                GÓC ĐIỆN ẢNH
               </a>
             </Col>
             <Col>
-              <a href="/a" className="textWhite">
+              <a className="headerItem" href="/a">
                 RẠP/ GIÁ VÉ
               </a>
             </Col>
             <Col>
-              <a href="/a" className="textWhite">
+              <a className="headerItem" href="/a">
                 LỊCH SỬ MUA HÀNG
               </a>
             </Col>

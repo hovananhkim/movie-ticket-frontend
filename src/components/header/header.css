@@ -24,4 +24,17 @@
 .textWhite {
   color: white;
 }
+.login {
+  color: #A7AAAE;
+}
+.login:hover {
+  color: #f26b38;
+}
+.headerItem {
+  color: white;
+}
+.headerItem:hover {
+  color: #f26b38 !important;
+}
+
 

@@ -13,9 +13,10 @@ export default function ListMoviesComponent(props) {
       <div className="row mt-2">
         {listMovies.map((item, index) => {
           return (
-            <div
+            <a
+              href={`/dat-ve/${item.name}`}
               key={index}
-              className="col-12 col-md-6 col-lg-3 mb-3 cursor-pointer"
+              className="col-12 col-md-6 col-lg-3 mb-3"
             >
               <div className="table-image">
                 <img
@@ -28,7 +29,7 @@ export default function ListMoviesComponent(props) {
                 <h4 className="m-0 title mb-1">{item.englishName}</h4>
                 <h4 className="m-0 title vn">{item.vietnamName}</h4>
               </div>
-            </div>
+            </a>
           );
         })}
       </div>

@@ -33,3 +33,7 @@
 .cursor-pointer{
     cursor: pointer;
 }
+.ant-list-header {
+    background-color: #f26b38 !important;
+    color: white;
+}

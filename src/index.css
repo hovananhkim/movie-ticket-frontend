@@ -21,3 +21,13 @@ code {
 .cursor-pointer{
   cursor: pointer;
 }
+.ant-tabs-tab:hover {
+  color: #e9815b !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #f26b38 !important;
+  text-shadow: 0 0 .25px currentColor;
+}
+.ant-tabs-ink-bar {
+  background-color: #f26b38 !important;
+}
