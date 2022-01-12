@@ -1,9 +1,7 @@
 import React from "react";
-import {movies} from "../../mockdata/movies";
+import { movies } from "../../mockdata/movies";
 import { Tabs } from "antd";
 const { TabPane } = Tabs;
-
-
 
 export default function ListMoviesComponent(props) {
   const callback = (key) => {};
@@ -14,7 +12,7 @@ export default function ListMoviesComponent(props) {
         {listMovies.map((item, index) => {
           return (
             <a
-              href={`/dat-ve/${item.name}`}
+              href={`/dat-ve/${item.id}/${item.name}`}
               key={index}
               className="col-12 col-md-6 col-lg-3 mb-3"
             >

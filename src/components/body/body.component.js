@@ -10,7 +10,7 @@ export default function BodyComponent() {
       <Routes>
         <Route path="/" element={<ListMoviesComponent />} />
         <Route path="/lich-chieu" element={<BuyTicketComponent />} />
-        <Route path="/dat-ve/:id" element={<MovieComponent />} />
+        <Route path="/dat-ve/:id/:name" element={<MovieComponent />} />
       </Routes>
     </BrowserRouter>
   );
