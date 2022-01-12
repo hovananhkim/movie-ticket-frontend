@@ -1,14 +1,14 @@
 import React from "react";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
-import MoviesComponent from "./movies.component";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ListMoviesComponent from "./listmovies.component";
 import "./body.css";
+import MovieScheduleComponent from "./movie-schedules.component";
 export default function BodyComponent() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<ListMoviesComponent />} />
-        <Route path="/a" element={<MoviesComponent />} />
+        <Route path="/lich-chieu" element={<MovieScheduleComponent />} />
       </Routes>
     </BrowserRouter>
   );

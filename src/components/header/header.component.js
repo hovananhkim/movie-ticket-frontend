@@ -30,11 +30,13 @@ export default function HeaderComponent() {
       <Container>
         <Row className="headerController">
           <Col xs={4}>
-            <img
-              src="https://www.galaxycine.vn/website/images/galaxy-logo.png"
-              alt="Galaxy cinema"
-              className="logo"
-            />
+            <a href="/">
+              <img
+                src="https://www.galaxycine.vn/website/images/galaxy-logo.png"
+                alt="Galaxy cinema"
+                className="logo"
+              />
+            </a>
           </Col>
           <Col xs={8} className="equalLogo">
             <Row>
@@ -68,7 +70,7 @@ export default function HeaderComponent() {
               </a>
             </Col>
             <Col>
-              <a href="/a" className="textWhite">
+              <a href="/lich-chieu" className="textWhite">
                 LICH CHIẾU
               </a>
             </Col>

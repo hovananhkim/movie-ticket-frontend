@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-
+import React from "react";
+import {movies} from "../../mockdata/movies";
 import { Tabs } from "antd";
 const { TabPane } = Tabs;
 
-import movies from "../../mockdata/movies";
+
 
 export default function ListMoviesComponent(props) {
   const callback = (key) => {};

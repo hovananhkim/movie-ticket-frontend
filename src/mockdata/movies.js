@@ -1,4 +1,4 @@
-const movies = [
+export const movies = [
   {
     id: 1,
     vietnamName: "",
@@ -160,4 +160,11 @@ const movies = [
     },
   },
 ];
-export default movies;
+
+export const cinemas = [
+  'Galaxy Huế',
+  'Galaxy Đà Nẵng',
+  'Galaxy Quảng Trị',
+  'Galaxy Nam',
+  'Galaxy Ngãi',
+]
