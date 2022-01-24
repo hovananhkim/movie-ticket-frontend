@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -18,7 +18,7 @@ code {
   margin-bottom: auto;
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 .ant-tabs-tab:hover {
@@ -26,8 +26,14 @@ code {
 }
 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
   color: #f26b38 !important;
-  text-shadow: 0 0 .25px currentColor;
+  text-shadow: 0 0 0.25px currentColor;
 }
 .ant-tabs-ink-bar {
   background-color: #f26b38 !important;
+}
+.text-disable {
+  color: #a7aaae;
+}
+.borderInput .borderInput:hover {
+  border-color: #1890ff !important;
 }

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./login.css";
 import "antd/dist/antd.min.css";
-import { Modal, Button } from "antd";
+import { Modal } from "antd";
 import { Tabs } from "antd";
 const { TabPane } = Tabs;
 
@@ -23,13 +23,17 @@ export default function LoginComponent(props) {
       <div className="login-form">
         <form className="py-2">
           <div className="row m-0">
-            <input type={"text"} placeholder="Email" className="input-login" />
+            <input
+              type={"text"}
+              placeholder="Email"
+              className="ant-input mb-3 p-2"
+            />
           </div>
           <div className="row m-0">
             <input
               type={"password"}
               placeholder="Mật khẩu"
-              className="input-login"
+              className="ant-input mb-3 p-2"
             />
           </div>
           <div className="row m-0">
@@ -53,25 +57,27 @@ export default function LoginComponent(props) {
         <form className="py-2">
           <div className="row m-0">
             <input
+              className="borderInput"
               type={"text"}
               placeholder="Họ và tên"
-              className="input-login"
+              className="ant-input mb-3 p-2"
             />
           </div>
 
           <div className="row m-0">
             <div className="col-12 col-md-6 p-0 pr-5px">
               <input
+                className="borderInput"
                 type={"text"}
                 placeholder="Email"
-                className="input-login"
+                className="ant-input mb-3 p-2"
               />
             </div>
             <div className="col-12 col-md-6 p-0 pl-5px">
               <input
                 type={"tel"}
                 placeholder="Số điện thoại"
-                className="input-login"
+                className="ant-input mb-3 p-2"
               />
             </div>
           </div>
@@ -80,14 +86,14 @@ export default function LoginComponent(props) {
               <input
                 type={"password"}
                 placeholder="Mật khẩu"
-                className="input-login"
+                className="ant-input mb-3 p-2"
               />
             </div>
-            <div className="col-12 col-md-6 p-0 pr-5px">
+            <div className="col-12 col-md-6 p-0 pl-5px">
               <input
                 type={"password"}
                 placeholder="Nhập lại mật khẩu"
-                className="input-login"
+                className="ant-input mb-3 p-2"
               />
             </div>
           </div>
@@ -95,7 +101,7 @@ export default function LoginComponent(props) {
             <input
               type={"text"}
               placeholder="Địa chỉ"
-              className="input-login"
+              className="ant-input mb-3 p-2"
             />
           </div>
           <div className="row m-0 mt-4">

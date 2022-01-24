@@ -12,7 +12,7 @@ export default function ListMoviesComponent(props) {
         {listMovies.map((item, index) => {
           return (
             <a
-              href={`/dat-ve/${item.id}/${item.name}`}
+              href={`/dat-ve/${item.name}`}
               key={index}
               className="col-12 col-md-6 col-lg-3 mb-3"
             >
@@ -37,7 +37,7 @@ export default function ListMoviesComponent(props) {
   return (
     <div className="container m-auto list-movies">
       <Tabs defaultActiveKey="1" onChange={callback}>
-        <TabPane tab="Phim đang chiếu" key="1">
+        <TabPane className="text-disable" tab="Phim đang chiếu" key="1">
           {listMovie()}
         </TabPane>
         <TabPane tab="Phim sắp chiếu" key="2">

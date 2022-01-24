@@ -32,7 +32,7 @@ export default function HeaderComponent() {
           <Col xs={4}>
             <a href="/">
               <img
-                src="https://www.galaxycine.vn/website/images/galaxy-logo.png"
+                src={window.location.origin + "/movie-ticket.png"}
                 alt="Galaxy cinema"
                 className="logo"
               />
@@ -47,7 +47,7 @@ export default function HeaderComponent() {
               </Col>
               <Col xs={6}>
                 <div className="headerAuth">
-                  <div className="cursor-pointer login" onClick={showModal}>
+                  <div className="loginLink" onClick={showModal}>
                     Đăng nhập
                   </div>
                 </div>

@@ -24,17 +24,22 @@
 .textWhite {
   color: white;
 }
-.login {
-  color: #A7AAAE;
-}
 .login:hover {
-  color: #f26b38;
+  color: #e9815b;
 }
 .headerItem {
   color: white;
 }
 .headerItem:hover {
-  color: #f26b38 !important;
+  color: #e9815b !important;
 }
-
-
+.loginLink {
+  color: #a7aaae;
+  cursor: pointer;
+}
+.loginLink:hover {
+  color: #e9815b;
+}
+a:hover {
+  color: #e9815b !important;
+}
